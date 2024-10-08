@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MATH_CPP_BIN_FLOAT_HPP
-#define BOOST_MATH_CPP_BIN_FLOAT_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/cpp_int.hpp>
 #include <nil/crypto3/multiprecision/integer.hpp>
@@ -2401,5 +2400,3 @@ namespace std {
         ExpressionTemplates>>::round_style;
 
 }    // namespace std
-
-#endif

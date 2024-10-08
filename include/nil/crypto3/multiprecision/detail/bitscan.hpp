@@ -5,8 +5,7 @@
 //
 // Comparison operators for cpp_int_backend:
 //
-#ifndef BOOST_MP_DETAIL_BITSCAN_HPP
-#define BOOST_MP_DETAIL_BITSCAN_HPP
+#pragma once
 
 #ifndef TVM
 #include <boost/predef/other/endian.h>
@@ -270,5 +269,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif

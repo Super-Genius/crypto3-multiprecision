@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MP_IS_VARIABLE_PRECISION_HPP
-#define BOOST_MP_IS_VARIABLE_PRECISION_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/detail/number_base.hpp>
 
@@ -24,5 +23,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif    // BOOST_MP_IS_BACKEND_HPP

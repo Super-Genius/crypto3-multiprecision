@@ -5,8 +5,7 @@
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 //
 
-#ifndef BOOST_MP_DETAIL_REBIND_HPP
-#define BOOST_MP_DETAIL_REBIND_HPP
+#pragma once
 
 namespace nil {
     namespace crypto3 {
@@ -22,5 +21,3 @@ namespace nil {
         }            // namespace multiprecision
     }                // namespace crypto3
 }    // namespace nil
-
-#endif    // BOOST_MP_DETAIL_REBIND_HPP

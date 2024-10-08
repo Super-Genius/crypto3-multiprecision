@@ -5,8 +5,7 @@
 //
 // Comparison operators for cpp_int_backend:
 //
-#ifndef BOOST_MP_CPP_INT_BIT_HPP
-#define BOOST_MP_CPP_INT_BIT_HPP
+#pragma once
 
 #ifdef _MSC_VER
 #pragma warning(push)
@@ -961,6 +960,4 @@ namespace nil {
 
 #ifdef _MSC_VER
 #pragma warning(pop)
-#endif
-
 #endif

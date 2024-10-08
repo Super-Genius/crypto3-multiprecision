@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MP_CPP_INT_HPP
-#define BOOST_MP_CPP_INT_HPP
+#pragma once
 
 #ifndef TVM
 #include <iostream>
@@ -2767,9 +2766,6 @@ namespace nil {
 #include <nil/crypto3/multiprecision/cpp_int/bitwise.hpp>
 #include <nil/crypto3/multiprecision/cpp_int/misc.hpp>
 #include <nil/crypto3/multiprecision/cpp_int/literals.hpp>
-#include <nil/crypto3/multiprecision/cpp_int/serialize.hpp>
 #include <nil/crypto3/multiprecision/cpp_int/import_export.hpp>
 #include <nil/crypto3/multiprecision/cpp_int/eval_jacobi.hpp>
 //#include <nil/crypto3/multiprecision/cpp_int/eval_ressol.hpp>
-
-#endif

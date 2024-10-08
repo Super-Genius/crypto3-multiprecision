@@ -4,8 +4,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MP_RESTRICTED_CONVERSION_HPP
-#define BOOST_MP_RESTRICTED_CONVERSION_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/traits/explicit_conversion.hpp>
 #include <nil/crypto3/multiprecision/detail/number_base.hpp>
@@ -45,5 +44,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif    // BOOST_MP_RESTRICTED_CONVERSION_HPP

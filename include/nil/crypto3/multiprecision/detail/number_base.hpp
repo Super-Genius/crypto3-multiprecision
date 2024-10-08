@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MATH_BIG_NUM_BASE_HPP
-#define BOOST_MATH_BIG_NUM_BASE_HPP
+#pragma once
 
 #include <limits>
 #include <type_traits>
@@ -1846,5 +1845,3 @@ namespace boost {
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-
-#endif    // BOOST_MATH_BIG_NUM_BASE_HPP

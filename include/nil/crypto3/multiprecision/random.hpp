@@ -5,8 +5,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MP_RANDOM_HPP
-#define BOOST_MP_RANDOM_HPP
+#pragma once
 
 #if defined(__GNUC__) || defined(_MSC_VER)
 #pragma message( \
@@ -14,5 +13,3 @@
 #endif
 
 #include <boost/random.hpp>
-
-#endif

@@ -8,8 +8,7 @@
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MP_GENERIC_INTERCONVERT_HPP
-#define BOOST_MP_GENERIC_INTERCONVERT_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/detail/default_ops.hpp>
 
@@ -620,5 +619,3 @@ namespace nil {
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-
-#endif    // BOOST_MP_GENERIC_INTERCONVERT_HPP

@@ -5,8 +5,7 @@
 //
 // Comparison operators for cpp_int_backend:
 //
-#ifndef BOOST_MP_CPP_INT_DIV_HPP
-#define BOOST_MP_CPP_INT_DIV_HPP
+#pragma once
 
 namespace nil {
     namespace crypto3 {
@@ -720,5 +719,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif

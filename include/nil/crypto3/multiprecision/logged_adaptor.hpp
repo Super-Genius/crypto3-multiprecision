@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MATH_LOGGED_ADAPTER_HPP
-#define BOOST_MATH_LOGGED_ADAPTER_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/traits/extract_exponent_type.hpp>
 #include <nil/crypto3/multiprecision/detail/integer_ops.hpp>
@@ -614,5 +613,3 @@ namespace boost {
 #undef NON_MEMBER_OP2
 #undef NON_MEMBER_OP3
 #undef NON_MEMBER_OP4
-
-#endif

@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MP_TRANS_RED_TYPE_HPP
-#define BOOST_MP_TRANS_RED_TYPE_HPP
+#pragma once
 
 namespace nil {
     namespace crypto3 {
@@ -20,5 +19,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif    // BOOST_MP_TRANS_RED_TYPE_HPP

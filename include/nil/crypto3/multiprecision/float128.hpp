@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MP_FLOAT128_HPP
-#define BOOST_MP_FLOAT128_HPP
+#pragma once
 
 #include <boost/config.hpp>
 #include <boost/functional/hash.hpp>
@@ -926,5 +925,3 @@ namespace std {
         nil::crypto3::multiprecision::backends::float128_backend, ExpressionTemplates>>::has_denorm;
 
 }    // namespace std
-
-#endif

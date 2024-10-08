@@ -7,8 +7,7 @@
 // http://www.boost.org/LICENSE_1_0.txt
 //---------------------------------------------------------------------------//
 
-#ifndef BOOST_MP_CPP_MODULAR_HPP
-#define BOOST_MP_CPP_MODULAR_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/modular/modular_params.hpp>
 #include <nil/crypto3/multiprecision/modular/modular_adaptor.hpp>
@@ -96,5 +95,3 @@ namespace nil {
         }    // namespace multiprecision
     }        // namespace crypto3
 }    // namespace nil
-
-#endif

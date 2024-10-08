@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_IS_BYTE_CONTAINER_HPP
-#define BOOST_IS_BYTE_CONTAINER_HPP
+#pragma once
 
 #include <iterator>
 #include <type_traits>
@@ -43,5 +42,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif    // BOOST_IS_BYTE_CONTAINER_HPP

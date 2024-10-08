@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MATH_ER_GMP_BACKEND_HPP
-#define BOOST_MATH_ER_GMP_BACKEND_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/number.hpp>
 #include <nil/crypto3/multiprecision/debug_adaptor.hpp>
@@ -3080,5 +3079,3 @@ namespace std {
 #endif
 
 }    // namespace std
-
-#endif

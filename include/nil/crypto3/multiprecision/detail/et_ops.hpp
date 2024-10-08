@@ -7,8 +7,7 @@
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MP_ET_OPS_HPP
-#define BOOST_MP_ET_OPS_HPP
+#pragma once
 
 namespace nil {
     namespace crypto3 {
@@ -1943,5 +1942,3 @@ namespace nil {
         }    // namespace multiprecision
     }        // namespace crypto3
 }    // namespace nil
-
-#endif

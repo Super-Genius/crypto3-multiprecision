@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MATH_RATIONAL_ADAPTER_HPP
-#define BOOST_MATH_RATIONAL_ADAPTER_HPP
+#pragma once
 
 #include <iostream>
 #include <iomanip>
@@ -373,5 +372,3 @@ namespace std {
                                                             ExpressionTemplates>>::is_exact;
 
 }    // namespace std
-
-#endif

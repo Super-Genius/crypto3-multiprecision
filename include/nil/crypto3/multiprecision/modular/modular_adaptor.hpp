@@ -8,8 +8,7 @@
 // http://www.boost.org/LICENSE_1_0.txt
 //---------------------------------------------------------------------------//
 
-#ifndef BOOST_MULTIPRECISION_MODULAR_ADAPTOR_HPP
-#define BOOST_MULTIPRECISION_MODULAR_ADAPTOR_HPP
+#pragma once
 
 #include <boost/cstdint.hpp>
 #include <boost/functional/hash_fwd.hpp>
@@ -679,5 +678,3 @@ namespace nil {
         }    // namespace multiprecision
     }        // namespace crypto3
 }    // namespace nil
-
-#endif

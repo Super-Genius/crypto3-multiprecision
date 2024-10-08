@@ -7,8 +7,7 @@
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MATH_EXTENDED_REAL_HPP
-#define BOOST_MATH_EXTENDED_REAL_HPP
+#pragma once
 
 #include <boost/config.hpp>
 #include <cstdint>
@@ -2364,5 +2363,3 @@ struct std::hash<boost::rational<nil::crypto3::multiprecision::number<Backend, E
     };
 
 #include <nil/crypto3/multiprecision/detail/ublas_interop.hpp>
-
-#endif

@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MP_DIGITS_HPP
-#define BOOST_MP_DIGITS_HPP
+#pragma once
 
 namespace nil {
     namespace crypto3 {
@@ -23,5 +22,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif

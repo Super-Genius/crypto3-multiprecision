@@ -5,8 +5,7 @@
 //
 // Comparison operators for cpp_int_backend:
 //
-#ifndef BOOST_MP_CPP_INT_LIM_HPP
-#define BOOST_MP_CPP_INT_LIM_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/traits/max_digits10.hpp>
 
@@ -482,5 +481,3 @@ namespace std {
 #endif
 
 }    // namespace std
-
-#endif

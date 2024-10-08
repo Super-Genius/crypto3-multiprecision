@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MP_CPP_INT_IMPORT_EXPORT_HPP
-#define BOOST_MP_CPP_INT_IMPORT_EXPORT_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/traits/conditional_make_unsigned.hpp>
 
@@ -276,5 +275,3 @@ namespace nil {
         }    // namespace multiprecision
     }        // namespace crypto3
 }    // namespace nil
-
-#endif    // BOOST_MP_CPP_INT_IMPORT_EXPORT_HPP

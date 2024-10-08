@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MATH_BIG_NUM_DEF_OPS
-#define BOOST_MATH_BIG_NUM_DEF_OPS
+#pragma once
 
 #include <boost/core/no_exceptions_support.hpp>    // BOOST_TRY
 #ifndef TVM
@@ -846,7 +845,7 @@ namespace nil {
                     return val.compare(static_cast<ui_type>(0)) == 0;
                 }
                 template<class T>
-                inline BOOST_MP_CXX14_CONSTEXPR int eval_get_sign(const T& val) {
+                inline BOOST_MP_CXX14_CONSTEXPR int eval_get_sign(const T &val) {
                     using ui_type = typename std::tuple_element<0, typename T::unsigned_types>::type;
                     return val.compare(static_cast<ui_type>(0));
                 }
@@ -3842,5 +3841,3 @@ namespace boost {
 // min/max overloads:
 //
 #include <nil/crypto3/multiprecision/detail/min_max.hpp>
-
-#endif

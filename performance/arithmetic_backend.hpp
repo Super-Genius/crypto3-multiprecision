@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MATH_FLOAT_BACKEND_HPP
-#define BOOST_MATH_FLOAT_BACKEND_HPP
+#pragma once
 
 #include <iostream>
 #include <iomanip>
@@ -664,5 +663,3 @@ class numeric_limits<boost::math::concepts::real_concept> : public std::numeric_
 } // namespace std
 
 #include <nil/crypto3/multiprecision/detail/integer_ops.hpp>
-
-#endif

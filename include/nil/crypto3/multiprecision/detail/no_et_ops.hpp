@@ -7,8 +7,7 @@
 //  (See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MP_NO_ET_OPS_HPP
-#define BOOST_MP_NO_ET_OPS_HPP
+#pragma once
 
 #ifdef BOOST_MSVC
 #pragma warning(push)
@@ -794,5 +793,3 @@ namespace nil {
 #ifdef BOOST_MSVC
 #pragma warning(pop)
 #endif
-
-#endif    // BOOST_MP_NO_ET_OPS_HPP

@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#ifndef BOOST_MATH_BN_MPFI_HPP
-#define BOOST_MATH_BN_MPFI_HPP
+#pragma once
 
 #include <algorithm>
 #include <cmath>
@@ -1792,4 +1791,3 @@ namespace std {
         nil::crypto3::multiprecision::mpfi_float_backend<0>, ExpressionTemplates>>::round_style;
 
 }    // namespace std
-#endif

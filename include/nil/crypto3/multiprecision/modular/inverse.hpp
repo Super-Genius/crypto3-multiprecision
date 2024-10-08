@@ -7,8 +7,7 @@
 // http://www.boost.org/LICENSE_1_0.txt
 //---------------------------------------------------------------------------//
 
-#ifndef BOOST_MULTIPRECISION_MODULAR_BACKENDS_INVERSE_HPP
-#define BOOST_MULTIPRECISION_MODULAR_BACKENDS_INVERSE_HPP
+#pragma once
 
 #include <boost/container/vector.hpp>
 #include <boost/type_traits/is_integral.hpp>
@@ -358,5 +357,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif

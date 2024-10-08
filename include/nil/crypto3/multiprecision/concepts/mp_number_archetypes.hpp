@@ -3,8 +3,7 @@
 //  Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at https://www.boost.org/LICENSE_1_0.txt
 
-#ifndef BOOST_MATH_CONCEPTS_ER_HPP
-#define BOOST_MATH_CONCEPTS_ER_HPP
+#pragma once
 
 #include <iostream>
 #include <sstream>
@@ -241,6 +240,4 @@ namespace std {
 
 #ifdef BOOST_MSVC
 #pragma warning(pop)
-#endif
-
 #endif

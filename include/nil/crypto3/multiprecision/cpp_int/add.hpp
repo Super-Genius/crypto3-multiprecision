@@ -5,8 +5,7 @@
 //
 // Comparison operators for cpp_int_backend:
 //
-#ifndef BOOST_MP_CPP_INT_ADD_HPP
-#define BOOST_MP_CPP_INT_ADD_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/detail/constexpr.hpp>
 #include <nil/crypto3/multiprecision/cpp_int/add_unsigned.hpp>
@@ -605,5 +604,3 @@ namespace nil {
         }        // namespace multiprecision
     }            // namespace crypto3
 }    // namespace nil
-
-#endif

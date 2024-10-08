@@ -13,8 +13,7 @@
 // can detect noexcept misuse at compile time, the only realistic option is to simply not use it here.
 //
 
-#ifndef BOOST_MP_CPP_DEC_FLOAT_BACKEND_HPP
-#define BOOST_MP_CPP_DEC_FLOAT_BACKEND_HPP
+#pragma once
 
 #include <boost/config.hpp>
 #include <cstdint>
@@ -3554,6 +3553,4 @@ namespace boost {
 
 #ifdef BOOST_MSVC
 #pragma warning(pop)
-#endif
-
 #endif

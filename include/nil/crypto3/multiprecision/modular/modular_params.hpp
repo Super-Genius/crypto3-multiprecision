@@ -8,8 +8,7 @@
 // http://www.boost.org/LICENSE_1_0.txt
 //---------------------------------------------------------------------------//
 
-#ifndef BOOST_MULTIPRECISION_MODULAR_PARAMS_HPP
-#define BOOST_MULTIPRECISION_MODULAR_PARAMS_HPP
+#pragma once
 
 #include <nil/crypto3/multiprecision/modular/montgomery_params.hpp>
 #include <nil/crypto3/multiprecision/modular/barrett_params.hpp>
@@ -107,5 +106,3 @@ namespace nil {
         }    // namespace multiprecision
     }        // namespace crypto3
 }    // namespace nil
-
-#endif    //_MULTIPRECISION_MODULAR_PARAMS_HPP
