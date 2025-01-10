@@ -185,6 +185,7 @@ namespace nil {
             using signed_double_limb_type = detail::largest_signed_type<64>::type;
 
             constexpr const unsigned bits_per_limb = 32;
+            constexpr const unsigned limb_size = sizeof(limb_type);
             constexpr const limb_type limb_value_max = ~static_cast<limb_type>(0u);
 
             constexpr const limb_type max_block_10 = 1000000000;
