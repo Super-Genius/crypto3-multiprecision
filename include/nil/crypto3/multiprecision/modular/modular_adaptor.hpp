@@ -255,6 +255,9 @@ namespace nil {
                     }
                 };
 
+                template<class Backend, class Params>
+                struct is_fixed_precision<modular_adaptor<Backend, Params>> : std::false_type {};
+
                 template<class Result, class Backend, typename StorageType>
                 constexpr void eval_convert_to(Result *result, const modular_adaptor<Backend, StorageType> &val) {
                     using default_ops::eval_convert_to;
